@@ -1,0 +1,231 @@
+@import url("reset.css");
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/***************************************************************************/
+.sec1:hover > .fon1 {
+  z-index: 2;
+}
+
+.sec2:hover > .fon2 {
+  z-index: 2;
+}
+
+.sec3:hover > .fon3 {
+  z-index: 2;
+}
+
+.sec4:hover > .fon4 {
+  z-index: 2;
+}
+
+/*****************************************************************************/
+.fon1 {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 720px;
+  text-align:center;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  overflow: auto;
+  margin: 210px 38px 295px 38px;
+}
+
+.fon2 {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 720px;
+  text-align: center;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  margin: 210px 38px 295px 38px;
+  overflow: scroll;
+}
+
+.fon3{
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 720px;
+  text-align: center;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  margin: 210px 38px 295px 38px;
+  overflow:scroll;
+}
+
+.fon4 {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  height: 200px;
+  width: 720px;
+  text-align: center;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  margin: 210px 38px 295px 38px;
+  font-family: 'Roboto', sans-serif;
+  overflow:hidden;
+}
+
+
+/**************************** SECTIONS ********************************************/
+.section-1 {
+  background: #0a080f;
+}
+
+.section-2 {
+  position: relative;
+  min-height: 100vh;
+}
+
+.pageUP {
+  position: fixed;
+  z-index: 4;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+/********************** SIDE-BAR **************************************************/
+.side-bar {
+  border-radius: 30px;
+  position: fixed;
+  text-align: center;
+  z-index: 4;
+  left: 0;
+  height: 168px;
+  width: 130px;
+  margin: 19% 0;
+}
+
+.side-bar > div > a {
+  color: #ffffff;
+}
+
+.side-bar > div > a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.doc-1, .doc-2, .doc-3, .doc-4 {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(122, 122, 122, 0.9);
+}
+
+
+/****************  TITLE **********************************************************/
+/*.title {
+  width: 700px;
+  margin: 0 auto;
+  }*/
+
+
+.title1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Salsa', cursive;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+
+.sect-main{
+  width: 800px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  border-radius: 30px;
+}
+
+.mers, .dod, .fer, .por {
+  font-size: 80px;
+  padding: 20px 0;
+  margin-bottom: -120px;
+  text-transform: uppercase;
+}
+
+
+
+.sec1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+  font-size: 20px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 30px;
+  background: rgba(204, 204, 204, 0.7);
+  padding-top: 50px;
+}
+
+.sec2 {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+  font-size: 20px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 30px;
+  background: rgba(204, 204, 204, 0.7);
+  padding-top: 50px;
+}
+
+.sec3 {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+  font-size: 20px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 30px;
+  background: rgba(204, 204, 204, 0.7);
+  padding-top: 50px;
+}
+
+.sec4 {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+  font-size: 20px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 30px;
+  background: rgba(204, 204, 204, 0.7);
+  padding-top: 50px;
+}
+
+.sect-main > .sect-1 {
+  padding-top: 20px;
+
+}
+
